@@ -4,11 +4,9 @@
 #
 #
 FROM        alpine:3.4
-MAINTAINER  Julien Rottenberg <julien@rottenberg.info>
 
+CMD         ["ffmpeg"]
 
-CMD         ["--help"]
-ENTRYPOINT  ["ffmpeg"]
 WORKDIR     /tmp/workdir
 
 
